@@ -28,6 +28,6 @@ To use this repo, you need to have Renovate installed and configured. You need t
 The regex manager will match the engine name and version from your Terraform files that match the file pattern:
 ```
 engine         =  "mariadb"
-engine_version =  "8.0.32"
+engine_version =  "10.6.8"
 ```
 The regex manager will use the *[github-tags](https://docs.renovatebot.com/modules/datasource/github-tags/)* datasource to fetch the latest tags from this repo as the available versions for the engine.
